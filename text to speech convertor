@@ -1,0 +1,5 @@
+import pyttsx3
+friend=pyttsx3.init()
+friend.say("Hello friend I am here for you")
+friend.say("dont worry everything will be all right ")
+friend.runAndWait()
