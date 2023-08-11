@@ -1,0 +1,43 @@
+print('''
+*******************************************************************************
+          |                   |                  |                     |
+ _________|________________.=""_;=.______________|_____________________|_______
+|                   |  ,-"_,=""     `"=.|                  |
+|___________________|__"=._o`"-._        `"=.______________|___________________
+          |                `"=._o`"=._      _`"=._                     |
+ _________|_____________________:=._o "=._."_.-="'"=.__________________|_______
+|                   |    __.--" , ; `"=._o." ,-"""-._ ".   |
+|___________________|_._"  ,. .` ` `` ,  `"-._"-._   ". '__|___________________
+          |           |o`"=._` , "` `; .". ,  "-._"-._; ;              |
+ _________|___________| ;`-.o`"=._; ." ` '`."\` . "-._ /_______________|_______
+|                   | |o;    `"-.o`"=._``  '` " ,__.--o;   |
+|___________________|_| ;     (#) `-.o `"=.`_.--"_o.-; ;___|___________________
+____/______/______/___|o;._    "      `".o|o_.--"    ;o;____/______/______/____
+/______/______/______/_"=._o--._        ; | ;        ; ;/______/______/______/_
+____/______/______/______/__"=._o--._   ;o|o;     _._;o;____/______/______/____
+/______/______/______/______/____"=._o._; | ;_.--"o.--"_/______/______/______/_
+____/______/______/______/______/_____"=.o|o_.--""___/______/______/______/____
+/______/______/______/______/______/______/______/______/______/______/[TomekK]
+*******************************************************************************
+''')
+print("Welcome to Tresure Island.")
+print("Your mission is to find the treasure")
+road=input("you are at cross road, where do you want to go? left or right?")
+if(road=="left"):
+ print("game over")
+else:
+ river=input("""Now you came accross a river and now you have to cross this 
+ river. you want to swim by your own or you want to take a boat? to take a boat type B and if 
+ you want to swim then type S""")
+ if(river=="S"):
+  print("you reached your destination with low HP")
+ elif(river=="B"):
+  print("you reached to your destination safely")
+ print("now you have 3 doors in front of you,and you have to chose one from them to get the tresure")
+ room=int(input("for room 1 write room one, for room 2 write room 2 and for room 3 write room 3"))
+ if(room=="room one"):
+  print("this room is full of fire ,you bured and game is over")
+ elif(room=="room 2"):
+  print("this room is full of lions they eats you and the game is over")
+ elif(room=="room 3"):
+  print("you got the tresure you won!!")
